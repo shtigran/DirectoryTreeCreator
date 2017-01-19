@@ -90,6 +90,10 @@ public static class CreateTree
 ```
 ### Description of CreateTree class
 In this class we implement the static method Scan, which take the path of directory and string of white space. After the method define all subdirectory i that directory and print the all files. And by recursion continue finding all files in the all subbdirectory.
+
+### Description of Program class
+Here we print the welcome message with an explanation and please input the directory path, which tree must be created. And after cretae the tree of directory for that path.
+
 ### Test and Result
 
 
