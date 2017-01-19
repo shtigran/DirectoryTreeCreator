@@ -91,6 +91,27 @@ public static class CreateTree
 ### Description of CreateTree class
 In this class we implement the static method Scan, which take the path of directory and string of white space. After the method define all subdirectory i that directory and print the all files. And by recursion continue finding all files in the all subbdirectory.
 
+### Program class implementation
+```c#
+static void Main(string[] args)
+        {
+            Console.WriteLine("       ______Directory Tree Creator ______\n");
+            Console.WriteLine("Please enter the location path of the folder,");
+            Console.WriteLine("which Directory Tree Yoy want to create.");
+            Console.Write("Location path format: C:\\Users\\User\\Desktop\\translate.txt): ");
+
+            string path = Console.ReadLine();
+            Console.WriteLine("\nThe directory tree of " + path + " is: \n");
+            path.Scan("");
+            string[] fi = Directory.GetFiles(path);
+            foreach (string dir in fi)
+            {
+                Console.WriteLine("-" + dir);
+            }
+            Console.ReadKey();
+        }
+
+```
 ### Description of Program class
 Here we print the welcome message with an explanation and please input the directory path, which tree must be created. And after cretae the tree of directory for that path.
 
