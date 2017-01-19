@@ -9,7 +9,9 @@ This project allow You to create the directory tree of the any directory.
 ----
 
 ### Purpose
-The destination of this project ilustrate the given directory hierarchy of folders and files .
+
+The destination of this project ilustrate the given directory hierarchy of folders and files.
+
 ----
 ### CreateTree class implementation
 ```c#
@@ -86,3 +88,9 @@ public static class CreateTree
         }
     }
 ```
+### Description of CreateTree class
+In this class we implement the static method Scan, which take the path of directory and string of white space. After the method define all subdirectory i that directory and print the all files. And by recursion continue finding all files in the all subbdirectory.
+### Test and Result
+
+
+
