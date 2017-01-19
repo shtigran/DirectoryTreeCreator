@@ -117,5 +117,6 @@ Here we print the welcome message with an explanation and please input the direc
 
 ### Test and Result
 
+![gif source](https://github.com/shtigran/TreeDirectoryCreator/blob/master/Tree%20Creator.gif)
 
 
