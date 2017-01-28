@@ -2,7 +2,9 @@
 # C#6.0  .NET FRAMEWORK 4.6
 
 ----
+### Test and Result
 
+![gif source](https://github.com/shtigran/TreeDirectoryCreator/blob/master/Tree%20Creator.gif)
 This project allow You to create the directory tree of the any directory.
 
 ----
@@ -114,8 +116,5 @@ static void Main(string[] args)
 ### Description of Program class
 Here we print the welcome message with an explanation and please input the directory path, which tree must be created. And after cretae the tree of directory for that path.
 
-### Test and Result
-
-![gif source](https://github.com/shtigran/TreeDirectoryCreator/blob/master/Tree%20Creator.gif)
 
 
