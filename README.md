@@ -5,7 +5,8 @@
 ### Test and Result
 
 ![gif source](https://github.com/shtigran/TreeDirectoryCreator/blob/master/Tree%20Creator.gif)
-This project allow You to create the directory tree of the any directory.
+
+This project allow You create the directory tree of the any directory.
 
 ----
 
