@@ -18,7 +18,7 @@ The destination of this project ilustrate the given directory hierarchy of folde
 ### CreateTree class implementation
 ```c#
 public static class CreateTree
-    {
+{
         static string pathFile;
 
         public static void Scan(this string path, string punct)
@@ -96,7 +96,7 @@ In this class we implement the static method Scan, which take the path of direct
 ### Program class implementation
 ```c#
 static void Main(string[] args)
-        {
+{
             Console.WriteLine("       ______Directory Tree Creator ______\n");
             Console.WriteLine("Please enter the location path of the folder,");
             Console.WriteLine("which Directory Tree Yoy want to create.");
